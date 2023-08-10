@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace StudentRegistrationSystem
 {
     internal class StudentRegistrationSystemTest
-    {       
+    {   
+      //lists for storing the student,courses ,faculties programs and enrolment information
+
 
         private List<Student> students = new List<Student>(CollegeData.studentData());
         private List<Course> courses = new List<Course>(CollegeData.courseData());
